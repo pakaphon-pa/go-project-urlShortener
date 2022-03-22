@@ -1,6 +1,6 @@
 ## Golang URL shortener
 
-### Task
+### Stack
 
 - [ ] Gin 
 - [ ] Redis
@@ -11,3 +11,9 @@
 - [ ] Viper env
 - [ ] Dockerfile dev 
 - [ ] Docker-compose for dev
+
+### required
+
+- [ ] short link should have a lifetime 
+- [ ] redirect users to the original url when who access
+- [ ] generate a unique
