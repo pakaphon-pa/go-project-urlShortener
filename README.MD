@@ -3,14 +3,14 @@
 ### Stack
 
 - [ ] Gin 
-- [ ] Redis
+- [x] Redis
 - [ ] Function url shortener
 - [ ] Unit test
 - [ ] Integretion test
 - [ ] Test container
 - [ ] Viper env
-- [ ] Dockerfile dev 
-- [ ] Docker-compose for dev
+- [x] Dockerfile dev 
+- [x] Docker-compose for dev
 
 ### required
 
