@@ -2,7 +2,7 @@
 
 ### Stack
 
-- [ ] Gin 
+- [x] Gin 
 - [x] Redis
 - [ ] Function url shortener
 - [ ] Unit test
@@ -11,6 +11,7 @@
 - [ ] Viper env
 - [x] Dockerfile dev 
 - [x] Docker-compose for dev
+- [ ] manual DI
 
 ### required
 
