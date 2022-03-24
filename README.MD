@@ -6,12 +6,12 @@
 - [x] Redis
 - [ ] Function url shortener
 - [ ] Unit test
-- [ ] Integretion test
-- [ ] Test container
-- [ ] Viper env
+- [x] Integretion test
+- [x] Test container
+- [x] Viper env
 - [x] Dockerfile dev 
 - [x] Docker-compose for dev
-- [ ] manual DI
+- [x] manual DI
 
 ### required
 
