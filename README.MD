@@ -4,7 +4,7 @@
 
 - [x] Gin 
 - [x] Redis
-- [ ] Function url shortener
+- [x] Function url shortener
 - [ ] Unit test
 - [x] Integretion test
 - [x] Test container
@@ -15,6 +15,6 @@
 
 ### required
 
-- [ ] short link should have a lifetime 
-- [ ] redirect users to the original url when who access
-- [ ] generate a unique
+- [x] short link should have a lifetime 
+- [x] redirect users to the original url when who access
+- [x] generate a unique
