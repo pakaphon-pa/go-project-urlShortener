@@ -47,10 +47,11 @@ func main() {
 	controller := controller.NewController(service)
 
 	server := gin.Default()
-	server.POST("/", controller.Save)
-	server.GET("/", controller.Get)
+
+	server.POST("/api/", controller.Save)
+	server.GET("/:shortUrl", controller.Get)
 	server.GET("/healthz", func(ctx *gin.Context) {
-		ctx.JSON(http.StatusCreated, "Hello world")
+		ctx.String(http.StatusOK, "ohai")
 	})
 
 	server.Run(viper.GetString("server.address"))

@@ -29,7 +29,7 @@ func (c *Controller) Save(ctx *gin.Context) {
 
 	shortUrl := c.service.GenerateShortLink(creationRequest.LongUrl)
 
-	host := "http://localhost:9808/"
+	host := "http://localhost:3004/"
 	ctx.JSON(200, gin.H{
 		"message":   "short url created successfully",
 		"short_url": host + shortUrl,
